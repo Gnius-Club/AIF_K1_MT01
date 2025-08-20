@@ -1,24 +1,253 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 1</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 1 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión ¡Exploradores de Máquinas y Naturaleza!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Diferenciar entre objetos naturales y creados por humanos.</li>
+<li>Identificar al menos una máquina en el entorno.</li>
+<li>Practicar la colaboración y comunicación oral.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Identificación y clasificación oral de un objeto natural y uno creado.</li>
+<li>Colaboración activa en pareja durante la búsqueda.</li>
+<li>Verbalización del posible propósito de un objeto identificado.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Bloques IBRICK</li>
+<li>Bloques LEGO Duplo</li>
+<li>Aros de colores</li>
+<li>Cesto o caja</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡A Calentar Motores para la Aventura! ⏰ 5 min</h2>
+<p>¡Es hora de conectar y prepararnos para una exploración fantástica, despertando nuestra curiosidad sobre el mundo que nos rodea!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Hola, Exploradores! (Proyectar Diapositiva 1) ⏰ 3 min</h3>
+<p>Recibe a los niños con entusiasmo y energía. Invítalos a sentarse en círculo. Inicia la sesión cantando juntos la canción "Hola, hola", animándolos a seguir el ritmo y los movimientos. Este momento ayuda a crear un ambiente de bienvenida y a captar su atención desde el inicio.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, hola, exploradores y exploradoras! ¡Qué emoción tan grande tenerlos aquí hoy, listos para una nueva misión! ¿Están listos para cantar nuestra canción de bienvenida y despertar todas las sonrisas? ¡Vamos a cantar juntos "Hola, hola" con mucha energía! (Cantar la canción). ¡Fantástico! Ahora, vamos a sentarnos todos en un círculo grande y cómodo, como un gran equipo de exploradores listos para descubrir cosas asombrosas.</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Nuestro Entorno Curioso (Proyectar Diapositiva 2) ⏰ 2 min</h3>
+<p>Una vez que todos estén cómodamente sentados en círculo, invita a los niños a observar cuidadosamente el entorno que los rodea. Haz preguntas abiertas para animarles a identificar y nombrar los objetos que ven en el aula. Escucha activamente sus respuestas y valora cada participación.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien, equipo! Ahora que estamos todos aquí, con nuestros ojos de exploradores muy abiertos, miren a su alrededor... ¿Qué objetos ven en nuestra sala? ¡Cuéntenme todo lo que encuentren con sus ojitos curiosos! ¿Alguien ve una silla? ¿Y una mesa? ¡Qué observadores! ¿Qué más ven? ¡Un libro! ¡Una ventana! ¡Excelente! Hay muchísimas cosas interesantes a nuestro alrededor, ¿verdad?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Secreto de lo Natural y lo Creado ⏰ 10 min</h2>
+<p>Nos sumergiremos en una historia mágica para descubrir la diferencia entre las cosas que la naturaleza nos regala y las que las personas construyen con sus manos.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Cuento del Descubrimiento (Proyectar Diapositiva 3) ⏰ 5 min</h3>
+<p>Narra un cuento corto (o adáptalo para que sea interactivo) sobre un niño que, en un jardín, descubre una planta. Haz énfasis en que la planta "creció solita" de la tierra, gracias al sol y al agua, sin que nadie la "fabricara". Anima a los niños a imaginar y describir la planta.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, atención, pequeños detectives y amantes de las historias! Hoy les voy a contar una historia secreta... Había una vez un niño llamado Leo, que era muy curioso, ¡como ustedes! Un día, Leo salió a su jardín, y entre la hierba, encontró algo muy especial: ¡una hojita suave, verde y con una forma muy bonita! ¿Creen que alguien la fabricó? ¿O creen que esa hojita salió de la tierra, como por magia, con ayuda del sol y del agua? ¡Exacto! ¡La naturaleza la hizo crecer! ¿Alguien ha visto una planta o una flor que creció solita? ¡Cuéntenme!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¿Quién hizo esto? (Proyectar Diapositiva 4) ⏰ 5 min</h3>
+<p>Continúa el cuento presentando que el mismo niño, Leo, luego encuentra un coche de juguete. Guía a los niños a comprender que este coche no creció, sino que alguien lo construyó. Enfatiza la diferencia entre lo "natural" (que crece solo) y lo "creado" (que las personas hacen). Puedes mostrar ejemplos sencillos en el aula.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Pero la historia no termina ahí! Leo siguió explorando y, ¡oh sorpresa!, se encontró con un cochecito de juguete, ¡listo para correr! Era rojo, brillante y tenía ruedas que giraban. Ahora, piensen un poquito... ¿Creen que este cochecito creció de la tierra como la hojita? ¿O alguien con sus manos, con herramientas y mucha imaginación, lo fabricó? ¡Así es! ¡Las personas lo crearon! ¿Ven qué diferente es una hojita de un coche? ¡Hay cosas que la naturaleza nos regala y otras que nosotros, las personas, creamos con mucho ingenio! ¿Qué otra cosa creada por humanos ven aquí en la sala? ¡Muy bien!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡A la Caza de Máquinas y Tesoros Naturales! ⏰ 20 min</h2>
+<p>¡Es momento de poner en práctica lo aprendido! Nos convertiremos en verdaderos cazadores de objetos, buscando máquinas y tesoros de la naturaleza por todo el salón.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Preparando la Expedición (Proyectar Diapositiva 5) ⏰ 5 min</h3>
+<p>Explica claramente la actividad: los niños, en parejas, buscarán dos tipos de objetos. Organiza a los niños en parejas, asegurándote de que todos tengan un compañero. Coloca el cesto o caja en un lugar central y accesible donde puedan depositar los objetos "naturales" que encuentren. Recuérdales las reglas de seguridad y respeto en el aula.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Equipo de exploradores, es hora de nuestra gran expedición! ¡Vamos a formar parejas, como los mejores amigos en una aventura! Un compañero con otro compañero. (Ayudar a formar parejas). ¿Están listos para una misión secreta? ¡Pongan sus ojos de águila y sus oídos de liebre, porque vamos a buscar tesoros! Uno de esos tesoros lo guardaremos en este cesto mágico (señalar el cesto), y el otro lo señalaremos. ¡Recuerden ser cuidadosos y respetuosos con todo en nuestra sala!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡La Gran Búsqueda! (Proyectar Diapositiva 6) ⏰ 10 min</h3>
+<p>Da la señal de inicio para la "Caza de Máquinas". Indica a las parejas que busquen un objeto "creado por humanos" (puede ser una máquina simple, un juguete, una silla, etc.) y un objeto "natural" (una hoja, una piedra, una rama pequeña, si es posible en el entorno del aula o preparados previamente). El objeto natural lo depositan cuidadosamente en el cesto, y la "máquina" la señalan o la llevan consigo para compartirla después.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Conviértanse en exploradores! A la cuenta de 3... ¡1, 2, 3... ¡A la carga! Cada pareja va a buscar algo que haya CRECIDO de la naturaleza, ¡como una hojita que se cayó de un árbol o una ramita! Y también, algo que las PERSONAS hayan FABRICADO, ¡como un juguete, una silla o incluso un lápiz! El tesoro natural lo guardamos con cuidado en nuestro cesto mágico, ¡y la máquina la señalan con su dedo mágico o la traen con cuidado! ¡Vamos, pequeños detectives, a encontrar esos tesoros!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡Soy un Gran Detective! (Proyectar Diapositiva 7) ⏰ 5 min</h3>
+<p>Mientras los niños buscan, circula por el aula. Acércate a las parejas, observando sus hallazgos. Haz preguntas abiertas y de guía para reforzar los conceptos: "¿Por qué crees que este objeto es natural?", "¿Quién crees que hizo este objeto?", "¿Para qué sirve esta máquina que encontraste?". Ofrece pistas si es necesario, pero permite que ellos descubran y verbalicen.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Oh, veo que esa pareja encontró una hoja muy bonita! ¿Creció solita o alguien la fabricó? ¡Excelente! Y miren ese... ¡un bloque de construcción! ¿Creció de la tierra o las personas lo hicieron? ¡Qué gran idea! ¿Y qué creen que hace ese objeto que encontraron? ¿Para qué sirve? ¡Pura magia de la ingeniería y de la naturaleza! ¡Sigan así, son unos detectives increíbles! ¡Recuerden que estamos buscando una cosa que crece y una cosa que las personas hicieron!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida y Compartiendo Hallazgos! ⏰ 5 min</h2>
+<p>Después de nuestra emocionante caza, es tiempo de compartir nuestros descubrimientos y celebrar juntos lo aprendido.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Compartiendo Nuestros Tesoros (Proyectar Diapositiva 8) ⏰ 2 min</h3>
+<p>Utiliza la estrategia de transición acordada (una campana o pandereta) para reunir al grupo en el círculo. Una vez reunidos, invita a cada pareja a compartir la "máquina" que encontraron. Pídeles que la muestren o la nombren y que digan para qué creen que sirve. Fomenta la participación de todos.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, exploradores! ¡Escuchen la señal de la campana! (Tocar campana o pandereta). ¡Es hora de reunirnos y compartir nuestras increíbles aventuras! ¡Qué emoción! Vamos a sentarnos en nuestro círculo mágico. ¿Quién quiere ser la primera pareja en contarnos qué máquina encontró? ¡Wow, qué objeto tan interesante! ¿Y para qué creen que sirve esa máquina? ¡La lámpara nos da luz! ¡El lápiz nos ayuda a dibujar! ¡Fantástico! ¡Cada uno tiene un descubrimiento genial!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Nuestros Tesoros Naturales! (Proyectar Diapositiva 9) ⏰ 1 min</h3>
+<p>Después de que las parejas hayan compartido sus máquinas, dirige la atención al cesto o caja donde depositaron los objetos naturales. Saca algunos de ellos o invítalos a verlos, y refuerza la idea de que son regalos de la naturaleza.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Y miren cuántos tesoros naturales tenemos en nuestro cesto! ¡Son maravillosos! (Mostrar algunos objetos del cesto). ¡Una hoja, una pequeña ramita! ¿Se acuerdan que estos crecieron solitos? ¡La naturaleza es asombrosa y nos regala cosas preciosas! ¡Muy bien, han hecho un trabajo excelente diferenciando!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡Misión Cumplida, Pequeños Genios! (Proyectar Diapositiva 10) ⏰ 2 min</h3>
+<p>Felicita efusivamente a los niños por su participación, su curiosidad y sus descubrimientos. Refuerza los conceptos clave de la sesión: objetos naturales vs. objetos creados por humanos. Haz un resumen rápido de lo aprendido y anímalos para la próxima aventura.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡EQUIPO TECH4GOOD AI FIRST! ¡Misión cumplida con honores! ¡Fueron unos exploradores y detectives increíbles! Hoy aprendimos a diferenciar entre las cosas mágicas que nos da la naturaleza, como las hojas y las flores, y las cosas ingeniosas que creamos los humanos, como los juguetes y las sillas. ¡Cada uno de ustedes es un genio! ¿Qué fue lo que más les gustó de esta aventura de hoy? ¡Un aplauso enorme para todos, son los mejores exploradores del mundo! ¡Estoy muy orgullosa de ustedes! ¡Nos vemos en la próxima misión!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
